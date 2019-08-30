@@ -1,0 +1,70 @@
+body {
+
+	/* background image from https://pixabay.com/en/trees-fog-forest-forrest-mist-1209660/ */
+	background: url(images/louisiana.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	/* Add background-size for Firefox Browser */
+	-moz-background-size: cover;
+	/* Add background-size for Opera Browser */
+	-o-background-size: cover;
+
+  }  
+
+#landing-container {
+	/* Using box model to move from top of page and center */
+	/* Add background called background-content.png found in the images folder - repeat and center; */
+	background: whitesmoke repeat center;
+	/* Center the text within the page */
+	padding: 70px;
+	margin: 70px auto;
+	width: 50%;
+	}
+h1 {
+	/* Remove the default margins set by browser */
+	margin: 0;
+	font-family: 'Noto Serif JP', serif;
+    text-align: center;
+	font-size: 50px;
+    color: #151516;
+    padding: 40px
+}
+p {
+	/* Remove the default margins set by browser */
+margin: 0%;
+text-align: left
+}
+a {
+	/* Change the display type of the a tag from inline to inline-block */
+    display: inline-block;
+	padding: 20px;
+	margin: 20px 10px;
+	/* Change font to PT Sans */
+	font-family: Helvetica, sans-serif;
+    /* Remove the underline of the text link */
+transition: ease .05s all;
+}
+a.ghost-button {
+	/* Change the background of this button to transparent*/
+	background: transparent;
+
+	/* Give this button a 1px solid light gray border*/
+border: 1px solid gray; 
+	/* Change the text color to the same light gray as the border*/
+color: gray;
+
+}
+a.button {
+	/* Change the background of this button to white */
+background: #a693e4; 
+
+	/* Give this button a 1px solid black border*/
+border: 1px solid #183b58;
+	/* Change the text color to black to match the border*/
+color: #1e1e27;
+}
+/* use a:hover{  } for hover state of a button in which your cursor moves over the button and the button changes */
+a:hover{
+background: blue; 
+border: 1px solid white; 
+
+}
